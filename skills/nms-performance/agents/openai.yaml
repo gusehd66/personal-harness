@@ -1,0 +1,3 @@
+interface:
+  display_name: "NMS Performance BE"
+  short_description: "product별 PM 구조를 확인하는 NMS 백엔드 분석·수정·리뷰"

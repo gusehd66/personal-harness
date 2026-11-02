@@ -1,0 +1,44 @@
+# 회의록 스킬이 재사용하는 사용자 확인 정정본이다.
+# 직접 정정된 용어·정식 이름만 추가한다. 회의별 Action Item, 담당자, 일정은 저장하지 않는다.
+version: 1
+terms:
+  - observed: 와이5G
+    canonical: my5G
+    scope: department
+    status: confirmed
+    evidence: 사용자 정정 2026-09-29
+  - observed: Link Wifi
+    canonical: Link Fi
+    scope: department
+    status: confirmed
+    evidence: 사용자 정정 2026-09-29
+  - observed: 북미향 OLT
+    canonical: XGS PON
+    scope: 북미향 OLT 개발 프로젝트명
+    status: confirmed
+    evidence: 사용자 프로젝트명 변경 요청 2026-10-08. 다른 OLT 제품의 일반 명칭으로 치환하지 않음.
+  - observed: 스즈메
+    canonical: Suzume DAS
+    scope: DAS 프로젝트명
+    status: confirmed
+    evidence: 사용자 프로젝트명 정정 2026-10-08
+people: []
+meeting_contexts: []
+
+# terms 예시:
+# - observed: 와이5G
+#   canonical: my5G 8.0
+#   scope: department
+#   status: confirmed
+#   evidence: 사용자 정정 2026-09-29
+# people 예시:
+# - observed: 신 과장
+#   canonical: 신용섭 과장
+#   scope: department
+#   status: confirmed
+#   evidence: 사용자 정정 2026-09-29
+# meeting_contexts 예시: 발화자 번호는 같은 원문 파일에서만 재사용한다.
+# - source_id: 20260923_주간회의_음성기록.txt
+#   speakers:
+#     참석자 1: 조만재 센터장
+#   evidence: 사용자 정정 2026-09-29
